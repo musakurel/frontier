@@ -9578,7 +9578,7 @@
   optionalDependencies:
     "fuse.js" "^3.4.5"
 
-"react-select@^5.0.0":
+"react-select@^5.0.0", "react-select@^5.2.1":
   "integrity" "sha512-OOyNzfKrhOcw/BlembyGWgdlJ2ObZRaqmQppPFut1RptJO423j+Y+JIsmxkvsZ4D/3CpOmwIlCvWbbAWEdh12A=="
   "resolved" "https://registry.npmjs.org/react-select/-/react-select-5.2.1.tgz"
   "version" "5.2.1"

@@ -1,0 +1,232 @@
+body {
+  background: #e9f1f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 100;
+  color: #54426b;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.form {
+  background: #e9f1f7;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+p {
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  content: '⚠ ';
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: #54426b;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+button[type='submit'],
+input[type='button'],
+input[type='submit'] {
+  background: #623cea;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+button[type='submit']:hover,
+input[type='submit']:hover {
+  background: #4e22ee;
+}
+
+button[type='submit']:active,
+input[type='button']:active,
+input[type='submit']:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type='button']:hover {
+  transition: 0.3s all;
+}
+
+button[type='submit'],
+input[type='button'],
+input[type='submit'] {
+  -webkit-appearance: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button[type='button'] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+hr {
+  margin-top: 30px;
+}
+select,
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.main {
+  width: 400px;
+  margin: auto;
+}
+h4 {
+  color: rgb(35, 212, 29);
+}
+.btn-double {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-next {
+  width: 45%;
+}
+.btn-pre {
+  width: 45%;
+  background-color: #e7dfc6 !important;
+  color: #54426b !important;
+}
+pre {
+  color: white;
+}
+p {
+  color: rgb(255, 92, 92);
+  font-size: 12px;
+}
+/* deneme */
+
+.container {
+  width: 600px;
+  margin: 100px 40px;
+  padding: 20px;
+}
+.progressbar {
+  counter-reset: step;
+}
+.progressbar li {
+  list-style-type: none;
+  width: 25%;
+  float: left;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7d7d7d;
+}
+.progressbar li:before {
+  width: 30px;
+  height: 30px;
+  content: counter(step);
+  counter-increment: step;
+  line-height: 30px;
+  border: 2px solid #7d7d7d;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: white;
+}
+.progressbar li:after {
+  width: 100%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: #7d7d7d;
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+.progressbar li:first-child:after {
+  content: none;
+}
+.progressbar li.active {
+  color: #623CEA;
+}
+.progressbar li.active:before {
+  border-color: #623CEA;
+}
+.progressbar li.active + li:after {
+  background-color: #623CEA;
+}
+
+textarea {
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: calc(100% - 5px);
+}

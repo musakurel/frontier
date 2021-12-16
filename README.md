@@ -6,7 +6,7 @@ We are building a vertically-integrated hiring marketplace that connects job see
 
 The first step of the candidate experience is applying for the job through Frontier's highly optimized application form.
 
-![An example of a Frontier application form](https://frontier-public-assets.s3-us-west-2.amazonaws.com/frontier-form-demo.png)
+![An example of a Frontier application form](https://www.linkpicture.com/q/Screen-Shot-2021-12-16-at-16.52.33.png)
 
 When we generate our application forms, the first step involves capturing the customer's original form and generating a detailed schematic to describe the form to our React form generator on the frontend. For this exercise we'd like you to build a simple form generator based on some provided data.
 
